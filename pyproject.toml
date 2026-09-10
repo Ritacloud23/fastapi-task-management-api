@@ -1,0 +1,15 @@
+[project]
+name = "task-management-api"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "isort>=9.0.1",
+    "sqlmodel>=0.0.42",
+]
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)",
+    "httpx (>=0.28.1,<0.29.0)"
+]
