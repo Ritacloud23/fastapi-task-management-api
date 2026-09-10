@@ -23,6 +23,7 @@ def on_startup():
 
 
 
+
 @app.get("/")
 def home():
     return {
